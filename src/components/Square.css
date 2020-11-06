@@ -1,0 +1,14 @@
+.squares {
+	background: white;
+	border: none;
+	font-size: 5rem;
+	cursor: pointer;
+	color: white;
+	transition: all 0.25s ease-in-out;
+	outline: none;
+}
+
+.squares.placed {
+	color: black;
+	pointer-events: none;
+}
